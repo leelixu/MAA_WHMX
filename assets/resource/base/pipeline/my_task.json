@@ -1,5 +1,24 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {}
+    "Task-start-logo": {
+        "recognition": "TemplateMatch",
+        "template": "155302_829_509_62_59__779_459_162_159.png",
+        "action": "Click",
+        "post_delay": 50000,
+        "next": [
+            "Task-start-close"
+        ]
+    },
+    "Task-start-close": {
+        "recognition": "TemplateMatch",
+        "template": "155556_1157_80_37_31__1107_30_137_131.png",
+        "action": "Click",
+        "next": [
+            "Task-start-enter"
+        ]
+    },
+    "Task-start-enter": {
+        "recognition": "TemplateMatch",
+        "template": "161238_556_575_66_31__506_525_166_131.png",
+        "action": "Click"
+    }
 }
